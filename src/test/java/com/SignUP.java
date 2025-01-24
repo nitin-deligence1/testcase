@@ -24,7 +24,8 @@ public class SignUP extends BaseTest {
 	public void Sign_Up_with_Valid_Credentials() throws IOException, InterruptedException {
 		page.navigate(properties.getProperty("rootUrl"));
 		Thread.sleep(2000);
-		page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Sign Up Sign Up For Free")).click();
+		System.out.println("$$$$$$$$$$$$" + takeScreenshot("test screenshot"));	
+	page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Sign Up Sign Up For Free")).click();
         page.getByPlaceholder("Email Address").fill(generateRandomEmail());
 		page.getByPlaceholder("Password", new Page.GetByPlaceholderOptions().setExact(true)).fill("ValidPass123");
 		page.getByPlaceholder("Confirm Password").fill("ValidPass123");

@@ -53,12 +53,11 @@ import java.util.Properties;
 
 	       // context = browser.newContext();
 	        page = context.newPage();
-	        int timeout = Integer.parseInt(properties.getProperty("defaultTimeout", "80000")); // default to 30 seconds
+	        int timeout = Integer.parseInt(properties.getProperty("defaultTimeout", "10000")); // default to 30 seconds
 	        page.setDefaultTimeout(timeout);
 
 	        page.navigate(properties.getProperty("rootUrl"));
-
-	        
+			takeScreenshot("setUp");
 	    }
 
 	   
