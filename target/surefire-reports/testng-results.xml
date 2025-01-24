@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T14:35:00 IST" name="Suite" finished-at="2025-01-24T14:35:41 IST" duration-ms="41320">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T14:35:00 IST" name="Test" finished-at="2025-01-24T14:35:41 IST" duration-ms="41320">
+      <class name="Resource.BaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Resource.BaseTest@7ea37dbf]" started-at="2025-01-24T14:34:53 IST" name="setUp" finished-at="2025-01-24T14:35:00 IST" duration-ms="6793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="quitPlaywright()[pri:0, instance:Resource.BaseTest@7ea37dbf]" started-at="2025-01-24T14:35:41 IST" name="quitPlaywright" finished-at="2025-01-24T14:35:41 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitPlaywright -->
+      </class> <!-- Resource.BaseTest -->
+      <class name="com.Login">
+        <test-method signature="Login_with_valid_usernameAndpassword()[pri:1, instance:com.Login@4c15e7fd]" started-at="2025-01-24T14:35:19 IST" name="Login_with_valid_usernameAndpassword" finished-at="2025-01-24T14:35:22 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_usernameAndpassword -->
+        <test-method signature="Login_with_valid_emailAndpassword()[pri:2, instance:com.Login@4c15e7fd]" started-at="2025-01-24T14:35:22 IST" name="Login_with_valid_emailAndpassword" finished-at="2025-01-24T14:35:26 IST" duration-ms="3658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_emailAndpassword -->
+        <test-method signature="Login_with_Invalid_username()[pri:3, instance:com.Login@4c15e7fd]" started-at="2025-01-24T14:35:26 IST" name="Login_with_Invalid_username" finished-at="2025-01-24T14:35:31 IST" duration-ms="5062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_username -->
+        <test-method signature="Login_with_Invalid_Gmail()[pri:4, instance:com.Login@4c15e7fd]" started-at="2025-01-24T14:35:31 IST" name="Login_with_Invalid_Gmail" finished-at="2025-01-24T14:35:36 IST" duration-ms="5131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_Gmail -->
+        <test-method signature="Login_with_Invalid_Password()[pri:5, instance:com.Login@4c15e7fd]" started-at="2025-01-24T14:35:36 IST" name="Login_with_Invalid_Password" finished-at="2025-01-24T14:35:41 IST" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_Invalid_Password -->
+      </class> <!-- com.Login -->
+      <class name="com.SignUP">
+        <test-method signature="Sign_Up_with_Valid_Credentials()[pri:1, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:00 IST" name="Sign_Up_with_Valid_Credentials" finished-at="2025-01-24T14:35:11 IST" duration-ms="10831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Up_with_Valid_Credentials -->
+        <test-method signature="Sign_Up_with_an_already_Registered_Email()[pri:2, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:11 IST" name="Sign_Up_with_an_already_Registered_Email" finished-at="2025-01-24T14:35:14 IST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Up_with_an_already_Registered_Email -->
+        <test-method signature="SignUp_with_an_Invalid_EmailID()[pri:3, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:14 IST" name="SignUp_with_an_Invalid_EmailID" finished-at="2025-01-24T14:35:15 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Invalid_EmailID -->
+        <test-method signature="SignUp_with_Password_ConfirmPassword_Missmatch()[pri:4, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:15 IST" name="SignUp_with_Password_ConfirmPassword_Missmatch" finished-at="2025-01-24T14:35:16 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_Password_ConfirmPassword_Missmatch -->
+        <test-method signature="SignUp_with_a_Password_Less_Than_6_Characters()[pri:5, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:16 IST" name="SignUp_with_a_Password_Less_Than_6_Characters" finished-at="2025-01-24T14:35:17 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_a_Password_Less_Than_6_Characters -->
+        <test-method signature="SignUp_with_an_Email_Containing_Invalid_Characters_Space()[pri:6, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:17 IST" name="SignUp_with_an_Email_Containing_Invalid_Characters_Space" finished-at="2025-01-24T14:35:18 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Email_Containing_Invalid_Characters_Space -->
+        <test-method signature="SignUp_with_an_Password_Containing_Invalid_Characters_Space()[pri:7, instance:com.SignUP@2133814f]" started-at="2025-01-24T14:35:18 IST" name="SignUp_with_an_Password_Containing_Invalid_Characters_Space" finished-at="2025-01-24T14:35:19 IST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Password_Containing_Invalid_Characters_Space -->
+      </class> <!-- com.SignUP -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
