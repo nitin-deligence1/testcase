@@ -36,15 +36,15 @@ import java.util.Properties;
 	        String browserType = properties.getProperty("browser", "chromium"); // default to chromium
 
 	        if (browserType.equalsIgnoreCase("firefox")) {
-	            browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+	            browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(true));
 	        } else if (browserType.equalsIgnoreCase("webkit")) {
-	            browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
+	            browser = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(true));
 	        } else {
 	           // for linux, git branch  CodeForUbuntu
 	        	
-	        	browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+	        	browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
 	        	//for window
-	        	//browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+	        	//browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
 	        }
 	        
 	        
